@@ -1,5 +1,4 @@
 
-
 Select Distinct
 --Used Distinct to get rid of duplicate game titles
 	title,
@@ -17,5 +16,5 @@ WHERE
 	rating IN ('Positive', 'Very Positive', 'Overwhelmingly Positive', 'Mostly Positive') AND
 	all_games.Genre IN ('Action', 'Adventure', 'Role-Playing', 'Fighting')
 --Only wanted games people most liked and was in the category was wanted
-ORDER BY discount DESC, user_reviews DESC
---Categorized games by biggest discount and most user reviews
+ORDER BY user_reviews DESC
+--Categorized games by most reviews to find the most popular game
