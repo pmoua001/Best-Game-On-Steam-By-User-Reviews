@@ -11,4 +11,5 @@ Data Source
 [Video Game Sales by Anand Shaw ](https://www.kaggle.com/datasets/anandshaw2001/video-game-sales) 
 
 Applications Used
+
 Microsoft SQL Server 
